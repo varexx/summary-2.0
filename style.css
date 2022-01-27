@@ -15,7 +15,6 @@ body {
 
 .info-person {
     display: flex;
-    padding: 5px;
     align-items: center;
     background: rgb(255, 241, 49);
 
@@ -27,9 +26,9 @@ body {
 }
 
 .photo {
-    box-shadow: black 0px 0px 10px;
     height: 160px;
     width: 150px;
+    margin: 8px;
 }
 
 .age {
@@ -71,6 +70,7 @@ ul {
     border-bottom: 5px solid;
     display: inline-block;
 }
-.ending{
+
+.ending {
     padding-bottom: 30px;
 }
