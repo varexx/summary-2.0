@@ -8,48 +8,46 @@ body {
     margin: 0 auto;
     margin-top: 10px;
     overflow: hidden;
-    border-radius: 20px;
-    box-shadow: blueviolet 0px 20px 35px;
+    box-shadow: gray 0px 20px 60px;
     border: black solid 1px;
     font-family: 'Roboto', sans-serif;
 }
 
-.nav {
+.info-person {
     display: flex;
     padding: 5px;
     align-items: center;
-    background: rgb(241, 235, 13);
-    background: radial-gradient(circle, rgba(241, 235, 13, 1) 21%, rgba(200, 230, 63, 1) 38%, rgba(255, 192, 0, 1) 78%);
+    background: rgb(255, 241, 49);
 
 }
 
 .name {
     margin-left: 10px;
     font-size: 40px;
-    text-shadow: black 5px 0px 10px;
 }
 
 .photo {
-    border-radius: 10px;
-    box-shadow: black 4px 4px 10px;
+    box-shadow: black 0px 0px 10px;
+    height: 160px;
+    width: 150px;
 }
 
-.roll {
+.age {
     font-size: 15px;
     margin: 0 auto;
 }
 
-h2 {
+.info-block h2 {
     background-color: black;
     color: white;
     display: inline-block;
-    margin: 10px 290px 2px 76px;
+    margin: 10px 0px 10px 76px;
     font-weight: 400;
     letter-spacing: 2px;
     padding: 1px 3px;
 }
 
-a {
+.info-block a {
     color: black;
     text-decoration: none;
 }
@@ -60,7 +58,7 @@ p {
 
 }
 
-li {
+.info-block li {
     margin-left: 76px;
 }
 
@@ -68,8 +66,11 @@ ul {
     margin-top: 5px;
 }
 
-.skills-text {
+.bordered-text {
 
     border-bottom: 5px solid;
     display: inline-block;
+}
+.ending{
+    padding-bottom: 30px;
 }
